@@ -1,0 +1,181 @@
+  .container {
+    background-color: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+html, body {
+    height: 100%;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, footer {
+    background-color: #111111;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 40px;
+    filter: invert(1);
+}
+
+.logo h1 {
+    width:360px ;
+}
+
+.menu {
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu div {
+    flex-grow: 1;
+    background-color: #333333;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 5px;
+}
+
+.menu div:hover {
+    background-color: #00ff88;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: #1a1a1a;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+main div {
+    padding: 20px;
+    background: linear-gradient(145deg, #2a2a2a, #1f1f1f);
+    width: 350px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px #0a0a0a
+}
+
+main h1 {
+    color: #00ff88;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+main p {
+    color: #e0e0e0;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+main a {
+    color: #00ff88;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main img {
+    width: 150px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 0 auto;
+}
+
+main button img {
+    width: 24px;
+    height: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #111111;
+}
+
+footer img {
+    width: 40px;
+    filter: invert(1);
+    margin-bottom: 10px;
+}
+
+footer > div {
+    flex: 1;
+    padding: 0 20px;
+}
+
+footer p {
+    color: #e0e0e0;
+    margin: 5px 0;
+}
+
+footer b {
+    color: #00ff88;
+}
+
+.address, .email, .tel {
+    border-right: 1px solid #333;
+}
+
+.address:last-child, .email:last-child, .tel:last-child {
+    border-right: none;
+}
+
+main button {
+    animation: glow 2s infinite;
+}
+
+main div p {
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+.btn {
+    margin-top: auto;
+}
