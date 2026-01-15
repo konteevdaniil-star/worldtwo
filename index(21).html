@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/21.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav>
+        <div class="nav-container">
+            <a href="#main" class="logo">
+                <i class="fas fa-code"></i>
+                 сайт визитка
+            </a>
+            <div class="nav-links">
+                <a href="#about">Обо мне</a>
+                <a href="#projects">Мои работы</a>
+                <a href="#contact">Обратная связь</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главная секция -->
+    <section id="main">
+        <div class="container">
+            <div class="main-content">
+                <img src="img/1768477219.png" alt="Фото профиля" class="profile-img">
+                <h1>Это я</h1>
+                <p>Привет! Я <span class="highlight">Junior разработчик</span></p>
+                <p></p>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Секция "Обо мне" -->
+    <section id="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <div class="about-content">
+                <div>
+                    <p>Я — начинающий фронтенд-разработчик, который твёрдо стоит на фундаменте семантической вёрстки и продуманного дизайна. Моя цель — превращать макеты в быстрые, доступные и «живые» интерфейсы, которые одинаково хорошо выглядят на любом устройстве.
+.</p>
+                    <p>Представляю свои навыки;</p>
+                </div>
+                <div>
+                    <h3>Мои навыки</h3>
+                    <div class="skills">
+                        <div class="skill">HTML5 & CSS</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">figma</div>
+                        <div class="skill">BlockBench</div>
+                        <div class="skill">githab</div>
+                        <div class="skill">netfly </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Мои работы" -->
+    <section id="projects">
+        <div class="container">
+            <h2>Мои работы</h2>
+            <p>Ниже представлены некоторые из моих последних проектов:</p>
+            
+            <div class="projects">
+                <!-- Проект 1 -->
+                <div class="project-card">
+                    <img src="img/изображение (1).jpg" class="project-img">
+                    <div class="project-info">
+                        <h3></h3>
+                        <p></p>
+                        <div class="project-tags">
+                            <div class="tag">html & css</div>
+                            <div class="tag">проект</div>
+                            <div class="tag">Неопрайм</div>
+                            <div class="tag">интернет магазин</div>
+                            <a href="card.html" class="social-link">1</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Проект 2 -->
+                <div class="project-card">
+                    <img src="img/изображение (2) (1) (1).png" alt="Проект 2" class="project-img">
+                    <div class="project-info">
+                        <h3></h3>
+                        <p></p>
+                        <div class="project-tags">
+                            <div class="tag">figma</div>
+                            <div class="tag">проект</div>
+                            <div class="tag">lunacy</div>
+                            <div class="tag">реклама наушников</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Проект 3 -->
+                <div class="project-card">
+                    <img src="img/изображение.png" alt="Проект 3" class="project-img">
+                    <div class="project-info">
+                        <h3></h3>
+                        <p></p>
+                        <div class="project-tags">
+                            <div class="tag">html & css</div>
+                            <div class="tag">сайт-визитка</div>
+                            <div class="tag">проект</div>
+                            <div class="tag">ЭКО-ЛАД</div>
+                            <a href="21/about.html" class="social-link">1</a>
+                            <a href="21/clients.html" class="social-link">2</a>
+                            <a href="21/contacts.html" class="social-link">3</a>
+                            <a href="21/index.html" class="social-link">4</a>
+                            <a href="21/uslugi.html" class="social-link">5</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Обратная связь" -->
+    <section id="contact">
+        <div class="container">
+            <h2>Обратная связь</h2>
+            <p>Свяжитесь со мной, если у вас есть вопросы или предложения по сотрудничеству.</p>
+            
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" placeholder="Введите ваше имя" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Ваш email</label>
+                        <input type="email" id="email" placeholder="Введите ваш email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" rows="5" placeholder="Введите ваше сообщение" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Отправить сообщение</button>
+                </form>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>konteevdaniil@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Телефон</h3>
+                            <p>+7 (999) 123-45-67</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Адрес</h3>
+                            <p>40 лет победы
+                                дом 21
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3></h3>
+                        <div class="">
+                            <a href="#" class="">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="">
+                                <img src="" alt="" class="">
+                                
+
+</body>
+</html>
